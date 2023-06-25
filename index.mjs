@@ -4,7 +4,7 @@ import { HttpsProxyAgent } from 'https-proxy-agent';
 import kuler from 'kuler';
 
 const server = http.createServer();
-const url = "https://now.gg/play/roblox-corporation/5349/roblox";
+const url = "https://now.gg";
 const PORT = process.env.PORT || 8080;
 
 // Create the https agent for the residential proxy
